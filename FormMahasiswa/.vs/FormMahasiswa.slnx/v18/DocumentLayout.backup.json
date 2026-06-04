@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\pemvis\\PEMVIS_CAPSTONE\\FormMahasiswa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9441B74C-9A5D-F7E3-C587-4FA1373D2788}|FormMahasiswa.vbproj|d:\\pemvis\\pemvis_capstone\\formmahasiswa\\formmahasiswa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9441B74C-9A5D-F7E3-C587-4FA1373D2788}|FormMahasiswa.vbproj|solutionrelative:formmahasiswa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9441B74C-9A5D-F7E3-C587-4FA1373D2788}|FormMahasiswa.vbproj|d:\\pemvis\\pemvis_capstone\\formmahasiswa\\formmahasiswa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9441B74C-9A5D-F7E3-C587-4FA1373D2788}|FormMahasiswa.vbproj|solutionrelative:formmahasiswa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9441B74C-9A5D-F7E3-C587-4FA1373D2788}|FormMahasiswa.vbproj|d:\\pemvis\\pemvis_capstone\\formmahasiswa\\connectionmodule.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9441B74C-9A5D-F7E3-C587-4FA1373D2788}|FormMahasiswa.vbproj|solutionrelative:connectionmodule.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9441B74C-9A5D-F7E3-C587-4FA1373D2788}|FormMahasiswa.vbproj|d:\\pemvis\\pemvis_capstone\\formmahasiswa\\modsession.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9441B74C-9A5D-F7E3-C587-4FA1373D2788}|FormMahasiswa.vbproj|solutionrelative:modsession.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConnectionModule.vb",
+              "DocumentMoniker": "D:\\pemvis\\PEMVIS_CAPSTONE\\FormMahasiswa\\ConnectionModule.vb",
+              "RelativeDocumentMoniker": "ConnectionModule.vb",
+              "ToolTip": "D:\\pemvis\\PEMVIS_CAPSTONE\\FormMahasiswa\\ConnectionModule.vb",
+              "RelativeToolTip": "ConnectionModule.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-04T00:22:08.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModSession.vb",
+              "DocumentMoniker": "D:\\pemvis\\PEMVIS_CAPSTONE\\FormMahasiswa\\ModSession.vb",
+              "RelativeDocumentMoniker": "ModSession.vb",
+              "ToolTip": "D:\\pemvis\\PEMVIS_CAPSTONE\\FormMahasiswa\\ModSession.vb",
+              "RelativeToolTip": "ModSession.vb",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-04T00:21:04.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormMahasiswa.vb",
+              "DocumentMoniker": "D:\\pemvis\\PEMVIS_CAPSTONE\\FormMahasiswa\\FormMahasiswa.vb",
+              "RelativeDocumentMoniker": "FormMahasiswa.vb",
+              "ToolTip": "D:\\pemvis\\PEMVIS_CAPSTONE\\FormMahasiswa\\FormMahasiswa.vb",
+              "RelativeToolTip": "FormMahasiswa.vb",
+              "ViewState": "AgIAAP0BAAAAAAAAAAAAAAgCAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-03T10:58:54.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormMahasiswa.vb [Design]",
+              "DocumentMoniker": "D:\\pemvis\\PEMVIS_CAPSTONE\\FormMahasiswa\\FormMahasiswa.vb",
+              "RelativeDocumentMoniker": "FormMahasiswa.vb",
+              "ToolTip": "D:\\pemvis\\PEMVIS_CAPSTONE\\FormMahasiswa\\FormMahasiswa.vb [Design]",
+              "RelativeToolTip": "FormMahasiswa.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-03T10:29:07.421Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
