@@ -2,7 +2,7 @@
 Imports System.Text.RegularExpressions
 Imports MySqlConnector
 
-Public Class FormMahasiswa
+Public Class FormDataMahasiswa
 
     Public Class Mahasiswa
         Public Property NIM As String
