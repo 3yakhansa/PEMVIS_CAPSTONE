@@ -27,7 +27,8 @@ Public Class FormMahasiswa
     Private ReadOnly CLR_RESET As Color = ColorTranslator.FromHtml("#CFDEDE")
     Private ReadOnly CLR_HOVER_D As Color = ColorTranslator.FromHtml("#3D6B6D")
 
-    ' helper databse
+    ' connection helper
+
     Private Function ExecNonQuery(sql As String, ParamArray params() As MySqlParameter) As Integer
         Using conn As MySqlConnection = ConnectionModule.BukaKoneksi()
             Using cmd As New MySqlCommand(sql, conn)
@@ -70,6 +71,7 @@ Public Class FormMahasiswa
     End Function
 
     ' crud
+
     Private Function GetAllMahasiswa() As DataTable
         Dim sql As String =
             "SELECT nim, namaMahasiswa, jenisKelamin, tempatLahir, " &
@@ -249,7 +251,8 @@ Public Class FormMahasiswa
         Return $"{tempat}, {tglStr}"
     End Function
 
-    'validasi
+    ' validasi
+
     Public Class HasilValidasi
         Public Property Valid As Boolean = True
         Public Property Pesan As String = ""
@@ -476,18 +479,9 @@ Public Class FormMahasiswa
         epValidasi.SetError(txtAlamat, "")
     End Sub
 
-    ' form load
+    ' form
+
     Private Sub FormMahasiswa_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-        ' ── SEMENTARA untuk testing (hapus setelah digabung dengan FormLogin) ──
-        If ModSession.LevelLogin = 0 Then
-            ModSession.LevelLogin = 1
-            ModSession.UserLoginName = "admin"
-            ModSession.NimLogin = "ADM0000001"
-            ModSession.NamaLogin = "Administrator"
-        End If
-        ' ── END TEMPORARY ──
-
         If Not ConnectionModule.TestKoneksi() Then
             MessageBox.Show("Tidak dapat terhubung ke database." & Environment.NewLine &
                 "Periksa konfigurasi di ConnectionModule.vb",
@@ -496,21 +490,16 @@ Public Class FormMahasiswa
             Return
         End If
 
-        TerapkanHakAkses()
-        dtpTglLahir.MaxDate = DateTime.Today
-        dtpTglLahir.Value = DateTime.Today.AddYears(-18)
+        cmbFilterAngk.Items.Insert(0, "(Semua Angkatan)")
+        cmbFilterJK.Items.Insert(0, "(Semua JK)")
+
         cmbFilterAngk.SelectedIndex = 0
         cmbFilterJK.SelectedIndex = 0
+
+        dtpTglLahir.MaxDate = DateTime.Today
+        dtpTglLahir.Value = DateTime.Today.AddYears(-18)
         MuatData()
         SetModeForm(False)
-    End Sub
-
-    Private Sub TerapkanHakAkses()
-        If ModSession.IsViewer Then
-            pnlFormInput.Visible = False
-        Else
-            pnlFormInput.Visible = True
-        End If
     End Sub
 
     Private Sub MuatData()
@@ -555,15 +544,15 @@ Public Class FormMahasiswa
 
     Private Sub AturHeaderDGV()
         Dim mapping As New Dictionary(Of String, String) From {
-        {"nim", "NIM"},
-        {"namaMahasiswa", "Nama Mahasiswa"},
-        {"jenisKelamin", "JK"},
-        {"ttl", "Tempat, Tgl Lahir"},
-        {"angkatan", "Angkatan"},
-        {"noTelp", "No. Telp"},
-        {"alamat", "Alamat"},
-        {"email", "Email"}
-    }
+            {"nim", "NIM"},
+            {"namaMahasiswa", "Nama Mahasiswa"},
+            {"jenisKelamin", "JK"},
+            {"ttl", "Tempat, Tgl Lahir"},
+            {"angkatan", "Angkatan"},
+            {"noTelp", "No. Telp"},
+            {"alamat", "Alamat"},
+            {"email", "Email"}
+        }
         For Each kv In mapping
             If dgvMahasiswa.Columns.Contains(kv.Key) Then
                 dgvMahasiswa.Columns(kv.Key).HeaderText = kv.Value
@@ -624,6 +613,7 @@ Public Class FormMahasiswa
         Next
     End Sub
 
+
     Private Sub tmrClock_Tick(sender As Object, e As EventArgs) Handles tmrClock.Tick
         lblClock.Text = DateTime.Now.ToString("HH:mm:ss")
         lblDate.Text = DateTime.Now.ToString("dddd, dd MMMM yyyy", New System.Globalization.CultureInfo("id-ID"))
@@ -658,10 +648,10 @@ Public Class FormMahasiswa
         MuatDataDenganFilter(keyword, angkatan, jk)
     End Sub
 
+
     Private Sub dgvMahasiswa_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvMahasiswa.CellClick
         If _isLoading Then Return
         If e.RowIndex < 0 Then Return
-        If ModSession.IsViewer Then Return
 
         Dim row = dgvMahasiswa.Rows(e.RowIndex)
         Dim nim As String = row.Cells("nim").Value?.ToString()
@@ -782,7 +772,7 @@ Public Class FormMahasiswa
             Dim berhasil = TambahMahasiswa(m)
 
             If berhasil Then
-                CatatLog(ModSession.NimLogin, "TAMBAH MAHASISWA", $"NIM: {m.NIM} | Nama: {m.NamaMahasiswa}")
+                CatatLog("ADM0000001", "TAMBAH MAHASISWA", $"NIM: {m.NIM} | Nama: {m.NamaMahasiswa}")
 
                 MessageBox.Show($"Data mahasiswa {m.NamaMahasiswa} berhasil ditambahkan.", "Berhasil", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
@@ -833,7 +823,7 @@ Public Class FormMahasiswa
             Dim berhasil = UbahMahasiswa(m)
 
             If berhasil Then
-                CatatLog(ModSession.NimLogin, "UBAH MAHASISWA", $"NIM: {m.NIM} | Nama: {m.NamaMahasiswa}")
+                CatatLog("ADM0000001", "UBAH MAHASISWA", $"NIM: {m.NIM} | Nama: {m.NamaMahasiswa}")
 
                 MessageBox.Show($"Data mahasiswa {m.NamaMahasiswa} berhasil diperbarui.", "Berhasil", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
@@ -865,7 +855,7 @@ Public Class FormMahasiswa
             Dim berhasil = HapusMahasiswa(_nimDipilih)
 
             If berhasil Then
-                CatatLog(ModSession.NimLogin, "HAPUS MAHASISWA", $"NIM: {_nimDipilih} | Nama: {nama}")
+                CatatLog("ADM0000001", "HAPUS MAHASISWA", $"NIM: {_nimDipilih} | Nama: {nama}")
 
                 MessageBox.Show($"Data mahasiswa {nama} berhasil dihapus.", "Berhasil", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
@@ -910,6 +900,7 @@ Public Class FormMahasiswa
         txtNIM.Focus()
     End Sub
 
+
     Private Sub dgvMahasiswa_RowPrePaint(sender As Object, e As DataGridViewRowPrePaintEventArgs) Handles dgvMahasiswa.RowPrePaint
         If e.RowIndex < 0 Then Return
         Dim row = dgvMahasiswa.Rows(e.RowIndex)
@@ -929,6 +920,7 @@ Public Class FormMahasiswa
             End If
         Next
     End Sub
+
 
     Private Sub btnSimpan_MouseEnter(s As Object, e As EventArgs) Handles btnSimpan.MouseEnter
         btnSimpan.BackColor = CLR_HOVER_D
@@ -958,6 +950,7 @@ Public Class FormMahasiswa
         btnReset.BackColor = CLR_RESET
     End Sub
 
+
     Protected Overrides Function ProcessCmdKey(ByRef msg As Message, keyData As Keys) As Boolean
         Select Case keyData
             Case Keys.Escape
@@ -967,7 +960,7 @@ Public Class FormMahasiswa
                 JalankanFilter()
                 Return True
             Case Keys.Control Or Keys.S
-                If ModSession.IsAdmin Then btnSimpan.PerformClick()
+                btnSimpan.PerformClick()
                 Return True
         End Select
         Return MyBase.ProcessCmdKey(msg, keyData)
