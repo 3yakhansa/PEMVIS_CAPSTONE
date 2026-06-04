@@ -1,6 +1,5 @@
 ﻿Imports System.Drawing
 Imports System.Text.RegularExpressions
-Imports MySql.Data.MySqlClient
 Imports MySqlConnector
 
 Public Class FormMahasiswa
@@ -30,7 +29,8 @@ Public Class FormMahasiswa
     ' connection helper
 
     Private Function ExecNonQuery(sql As String, ParamArray params() As MySqlParameter) As Integer
-        Using conn As MySqlConnection = ConnectionModule.BukaKoneksi()
+        Using conn As MySqlConnection = ConnectionModule.GetConnection()
+            conn.Open()
             Using cmd As New MySqlCommand(sql, conn)
                 If params IsNot Nothing Then
                     cmd.Parameters.AddRange(params)
@@ -41,7 +41,8 @@ Public Class FormMahasiswa
     End Function
 
     Private Function ExecScalar(sql As String, ParamArray params() As MySqlParameter) As Object
-        Using conn As MySqlConnection = ConnectionModule.BukaKoneksi()
+        Using conn As MySqlConnection = ConnectionModule.GetConnection()
+            conn.Open()
             Using cmd As New MySqlCommand(sql, conn)
                 If params IsNot Nothing Then
                     cmd.Parameters.AddRange(params)
@@ -53,7 +54,8 @@ Public Class FormMahasiswa
 
     Private Function GetDataTable(sql As String, ParamArray params() As MySqlParameter) As DataTable
         Dim dt As New DataTable()
-        Using conn As MySqlConnection = ConnectionModule.BukaKoneksi()
+        Using conn As MySqlConnection = ConnectionModule.GetConnection()
+            conn.Open()
             Using cmd As New MySqlCommand(sql, conn)
                 If params IsNot Nothing Then
                     cmd.Parameters.AddRange(params)
@@ -482,14 +484,6 @@ Public Class FormMahasiswa
     ' form
 
     Private Sub FormMahasiswa_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        If Not ConnectionModule.TestKoneksi() Then
-            MessageBox.Show("Tidak dapat terhubung ke database." & Environment.NewLine &
-                "Periksa konfigurasi di ConnectionModule.vb",
-                "Koneksi Gagal", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            Me.Close()
-            Return
-        End If
-
         cmbFilterAngk.Items.Insert(0, "(Semua Angkatan)")
         cmbFilterJK.Items.Insert(0, "(Semua JK)")
 
