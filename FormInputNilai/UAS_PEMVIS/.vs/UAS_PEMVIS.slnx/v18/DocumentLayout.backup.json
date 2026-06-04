@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\semester 4\\PEMPROGRAMAN_VISUAL\\UAS_PEMVIS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33A0ABF5-5555-4896-9DBF-ECFBF49567E1}|UAS_PEMVIS.vbproj|d:\\semester 4\\pemprograman_visual\\uas_pemvis\\forminputnilai.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{33A0ABF5-5555-4896-9DBF-ECFBF49567E1}|UAS_PEMVIS.vbproj|solutionrelative:forminputnilai.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A0ABF5-5555-4896-9DBF-ECFBF49567E1}|UAS_PEMVIS.vbproj|d:\\semester 4\\pemprograman_visual\\uas_pemvis\\forminputnilai.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{33A0ABF5-5555-4896-9DBF-ECFBF49567E1}|UAS_PEMVIS.vbproj|solutionrelative:forminputnilai.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A0ABF5-5555-4896-9DBF-ECFBF49567E1}|UAS_PEMVIS.vbproj|d:\\semester 4\\pemprograman_visual\\uas_pemvis\\forminputnilai.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{33A0ABF5-5555-4896-9DBF-ECFBF49567E1}|UAS_PEMVIS.vbproj|solutionrelative:forminputnilai.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A0ABF5-5555-4896-9DBF-ECFBF49567E1}|UAS_PEMVIS.vbproj|d:\\semester 4\\pemprograman_visual\\uas_pemvis\\moduleconnection.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{33A0ABF5-5555-4896-9DBF-ECFBF49567E1}|UAS_PEMVIS.vbproj|solutionrelative:moduleconnection.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormInputNilai.vb",
+              "DocumentMoniker": "D:\\semester 4\\PEMPROGRAMAN_VISUAL\\UAS_PEMVIS\\FormInputNilai.vb",
+              "RelativeDocumentMoniker": "FormInputNilai.vb",
+              "ToolTip": "D:\\semester 4\\PEMPROGRAMAN_VISUAL\\UAS_PEMVIS\\FormInputNilai.vb",
+              "RelativeToolTip": "FormInputNilai.vb",
+              "ViewState": "AgIAABwBAAAAAAAAAAAswOgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-03T06:28:21.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModuleConnection.vb",
+              "DocumentMoniker": "D:\\semester 4\\PEMPROGRAMAN_VISUAL\\UAS_PEMVIS\\ModuleConnection.vb",
+              "RelativeDocumentMoniker": "ModuleConnection.vb",
+              "ToolTip": "D:\\semester 4\\PEMPROGRAMAN_VISUAL\\UAS_PEMVIS\\ModuleConnection.vb",
+              "RelativeToolTip": "ModuleConnection.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-03T07:26:12.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormInputNilai.vb [Design]",
+              "DocumentMoniker": "D:\\semester 4\\PEMPROGRAMAN_VISUAL\\UAS_PEMVIS\\FormInputNilai.vb",
+              "RelativeDocumentMoniker": "FormInputNilai.vb",
+              "ToolTip": "D:\\semester 4\\PEMPROGRAMAN_VISUAL\\UAS_PEMVIS\\FormInputNilai.vb [Design]",
+              "RelativeToolTip": "FormInputNilai.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-03T07:19:59.676Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormInputNilai.Designer.vb",
+              "DocumentMoniker": "D:\\semester 4\\PEMPROGRAMAN_VISUAL\\UAS_PEMVIS\\FormInputNilai.Designer.vb",
+              "RelativeDocumentMoniker": "FormInputNilai.Designer.vb",
+              "ToolTip": "D:\\semester 4\\PEMPROGRAMAN_VISUAL\\UAS_PEMVIS\\FormInputNilai.Designer.vb",
+              "RelativeToolTip": "FormInputNilai.Designer.vb",
+              "ViewState": "AgIAALkCAAAAAAAAAADwv9YCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-03T06:24:37.514Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
