@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="FormDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormDashboardMahasiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormDataMahasiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormDataUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormInputNilai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormLogAktivitas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormMataKuliah.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormReportLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormReportNilai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
