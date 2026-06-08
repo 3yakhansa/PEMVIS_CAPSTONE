@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus GK\\OneDrive\\Documents\\S4-TUGAS\\UAS-PEMVIS\\PEMVIS_CAPSTONE\\KelolaUser\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F605FDF-47E3-FEE1-A2EB-211C21AA83E9}|KelolaUser.vbproj|c:\\users\\asus gk\\onedrive\\documents\\s4-tugas\\uas-pemvis\\pemvis_capstone\\kelolauser\\formdatauser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{5F605FDF-47E3-FEE1-A2EB-211C21AA83E9}|KelolaUser.vbproj|solutionrelative:formdatauser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F605FDF-47E3-FEE1-A2EB-211C21AA83E9}|KelolaUser.vbproj|c:\\users\\asus gk\\onedrive\\documents\\s4-tugas\\uas-pemvis\\pemvis_capstone\\kelolauser\\formdatauser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5F605FDF-47E3-FEE1-A2EB-211C21AA83E9}|KelolaUser.vbproj|solutionrelative:formdatauser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F605FDF-47E3-FEE1-A2EB-211C21AA83E9}|KelolaUser.vbproj|c:\\users\\asus gk\\onedrive\\documents\\s4-tugas\\uas-pemvis\\pemvis_capstone\\kelolauser\\connectionmodule.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5F605FDF-47E3-FEE1-A2EB-211C21AA83E9}|KelolaUser.vbproj|solutionrelative:connectionmodule.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F605FDF-47E3-FEE1-A2EB-211C21AA83E9}|KelolaUser.vbproj|c:\\users\\asus gk\\onedrive\\documents\\s4-tugas\\uas-pemvis\\pemvis_capstone\\kelolauser\\formdatauser.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5F605FDF-47E3-FEE1-A2EB-211C21AA83E9}|KelolaUser.vbproj|solutionrelative:formdatauser.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F605FDF-47E3-FEE1-A2EB-211C21AA83E9}|KelolaUser.vbproj|c:\\users\\asus gk\\onedrive\\documents\\s4-tugas\\uas-pemvis\\pemvis_capstone\\kelolauser\\kelolauser.vbproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F605FDF-47E3-FEE1-A2EB-211C21AA83E9}|KelolaUser.vbproj|solutionrelative:kelolauser.vbproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F605FDF-47E3-FEE1-A2EB-211C21AA83E9}|KelolaUser.vbproj|c:\\users\\asus gk\\onedrive\\documents\\s4-tugas\\uas-pemvis\\pemvis_capstone\\kelolauser\\my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5F605FDF-47E3-FEE1-A2EB-211C21AA83E9}|KelolaUser.vbproj|solutionrelative:my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KelolaUser",
+              "DocumentMoniker": "C:\\Users\\Asus GK\\OneDrive\\Documents\\S4-TUGAS\\UAS-PEMVIS\\PEMVIS_CAPSTONE\\KelolaUser\\KelolaUser.vbproj",
+              "RelativeDocumentMoniker": "KelolaUser.vbproj",
+              "ToolTip": "C:\\Users\\Asus GK\\OneDrive\\Documents\\S4-TUGAS\\UAS-PEMVIS\\PEMVIS_CAPSTONE\\KelolaUser\\KelolaUser.vbproj",
+              "RelativeToolTip": "KelolaUser.vbproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2026-06-04T03:52:12.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormDataUser.vb",
+              "DocumentMoniker": "C:\\Users\\Asus GK\\OneDrive\\Documents\\S4-TUGAS\\UAS-PEMVIS\\PEMVIS_CAPSTONE\\KelolaUser\\FormDataUser.vb",
+              "RelativeDocumentMoniker": "FormDataUser.vb",
+              "ToolTip": "C:\\Users\\Asus GK\\OneDrive\\Documents\\S4-TUGAS\\UAS-PEMVIS\\PEMVIS_CAPSTONE\\KelolaUser\\FormDataUser.vb",
+              "RelativeToolTip": "FormDataUser.vb",
+              "ViewState": "AgIAAEACAAAAAAAAAAAqwFQCAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-04T00:17:13.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConnectionModule.vb",
+              "DocumentMoniker": "C:\\Users\\Asus GK\\OneDrive\\Documents\\S4-TUGAS\\UAS-PEMVIS\\PEMVIS_CAPSTONE\\KelolaUser\\ConnectionModule.vb",
+              "RelativeDocumentMoniker": "ConnectionModule.vb",
+              "ToolTip": "C:\\Users\\Asus GK\\OneDrive\\Documents\\S4-TUGAS\\UAS-PEMVIS\\PEMVIS_CAPSTONE\\KelolaUser\\ConnectionModule.vb",
+              "RelativeToolTip": "ConnectionModule.vb",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-04T03:50:07.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormDataUser.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus GK\\OneDrive\\Documents\\S4-TUGAS\\UAS-PEMVIS\\PEMVIS_CAPSTONE\\KelolaUser\\FormDataUser.vb",
+              "RelativeDocumentMoniker": "FormDataUser.vb",
+              "ToolTip": "C:\\Users\\Asus GK\\OneDrive\\Documents\\S4-TUGAS\\UAS-PEMVIS\\PEMVIS_CAPSTONE\\KelolaUser\\FormDataUser.vb [Design]",
+              "RelativeToolTip": "FormDataUser.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-04T02:44:29.541Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormDataUser.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\Asus GK\\OneDrive\\Documents\\S4-TUGAS\\UAS-PEMVIS\\PEMVIS_CAPSTONE\\KelolaUser\\FormDataUser.Designer.vb",
+              "RelativeDocumentMoniker": "FormDataUser.Designer.vb",
+              "ToolTip": "C:\\Users\\Asus GK\\OneDrive\\Documents\\S4-TUGAS\\UAS-PEMVIS\\PEMVIS_CAPSTONE\\KelolaUser\\FormDataUser.Designer.vb",
+              "RelativeToolTip": "FormDataUser.Designer.vb",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAQwFgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-03T23:34:17.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Application.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\Asus GK\\OneDrive\\Documents\\S4-TUGAS\\UAS-PEMVIS\\PEMVIS_CAPSTONE\\KelolaUser\\My Project\\Application.Designer.vb",
+              "RelativeDocumentMoniker": "My Project\\Application.Designer.vb",
+              "ToolTip": "C:\\Users\\Asus GK\\OneDrive\\Documents\\S4-TUGAS\\UAS-PEMVIS\\PEMVIS_CAPSTONE\\KelolaUser\\My Project\\Application.Designer.vb",
+              "RelativeToolTip": "My Project\\Application.Designer.vb",
+              "ViewState": "AgIAABEAAAAAAAAAAAAEwB0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-04T01:08:20.226Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
